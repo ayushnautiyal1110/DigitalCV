@@ -145,7 +145,7 @@ elif selected=="Skills":
     col1,col2,col3=st.columns(3)
     with col1:
         st.image("https://cdn.hackr.io/uploads/posts/attachments/1570190908UfTQzF19EE.jpg",width=200) 
-        
+        st.image("https://wallpapercave.com/wp/wp2742472.jpg")
         st.image("https://media.istockphoto.com/vectors/blue-round-dbms-concept-vector-id954537764?k=6&m=954537764&s=170667a&w=0&h=-fcviToOX5KS5bsdfY_GGZyKh5UjS132KNwapqRLaGE=",width=200)
        
     with col2:
@@ -156,6 +156,7 @@ elif selected=="Skills":
         st.image("https://media.gettyimages.com/vectors/artificial-intelligence-banner-vector-id691178076",width=250)
         st.image("https://24x7servermanagement.com/wp-content/uploads/2016/09/mysql-logo.jpg",100)
         st.image("https://1.bp.blogspot.com/-NGHwBncyA68/UiMm_8b2ZUI/AAAAAAAAAnA/17OGXCKI4zE/s1600/Logo+HTML5.JPG")
+        
 
 elif selected=="Certifications":
     geek_img="https://noticedash.com/wp-content/uploads/2021/06/GeeksforGeeks.svg_.png"
