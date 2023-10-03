@@ -177,27 +177,27 @@ elif selected=="Certifications":
         unsafe_allow_html=True
     )
     st.subheader("Problem Solving (Intermediate) Certificate")
-    h1_img="https://ugc.production.linktr.ee/d8B3KXoPSHinSb62Ysrv_648efede33f77_SEO-Image-_1_.jpg"
-    h1_url="https://unstop.com/certificate-preview/adc8ac0a-597f-4c11-8b60-5fbc4e913b39?utm_campaign"
+    h2_img="https://ugc.production.linktr.ee/d8B3KXoPSHinSb62Ysrv_648efede33f77_SEO-Image-_1_.jpg"
+    h2_url="https://unstop.com/certificate-preview/adc8ac0a-597f-4c11-8b60-5fbc4e913b39?utm_campaign"
     st.markdown(
 
-        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+        f'<a href="{h2_url}" target=" _blank"><img src="{h2_img}" alt="LeetCode Profile" width="150" ></a>',
         unsafe_allow_html=True
     )
     st.subheader("Techsurf Certificate")
-    h1_img="https://cdn.neow.in/news/images/uploaded/2021/03/1615067291_freecodecamp_story.jpg"
-    h1_url="https://www.freecodecamp.org/certification/ayush_n/responsive-web-design"
+    h3_img="https://cdn.neow.in/news/images/uploaded/2021/03/1615067291_freecodecamp_story.jpg"
+    h3_url="https://www.freecodecamp.org/certification/ayush_n/responsive-web-design"
     st.markdown(
 
-        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+        f'<a href="{h3_url}" target=" _blank"><img src="{h3_img}" alt="LeetCode Profile" width="150" ></a>',
         unsafe_allow_html=True
     )
     st.subheader("Responsive Web Design Certificate")
-    h1_img="https://learnerbits.com/wp-content/uploads/2023/06/Flipkart-Grid-5.0.png"
-    h1_url="https://unstop.com/certificate-preview/c3d03890-cf32-4050-bfb5-9b9b838919d7"
+    h4_img="https://learnerbits.com/wp-content/uploads/2023/06/Flipkart-Grid-5.0.png"
+    h4_url="https://unstop.com/certificate-preview/c3d03890-cf32-4050-bfb5-9b9b838919d7"
     st.markdown(
 
-        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+        f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
         unsafe_allow_html=True
     )
     st.subheader("Flipkart Grid 5.0 Certificate")
