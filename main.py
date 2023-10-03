@@ -165,7 +165,7 @@ elif selected=="Certifications":
     
     st.markdown(
 
-        f'<a href="{geek_url}" target=" _blank"><img src="{geek_img}" alt="LeetCode Profile" width="200" ></a>',
+        f'<a href="{geek_url}" target=" _blank"><img src="{geek_img}" alt="LeetCode Profile" width="150" ></a>',
         unsafe_allow_html=True
     )
     st.subheader("DSA Self Paced Course")
@@ -173,8 +173,33 @@ elif selected=="Certifications":
     h1_url="https://www.hackerrank.com/certificates/56bbbd727715?utm_medium=email&utm_source=mail_template_1393&utm_campaign=hrc_skills_certificate"
     st.markdown(
 
-        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="200" ></a>',
+        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
         unsafe_allow_html=True
     )
     st.subheader("Problem Solving (Intermediate) Certificate")
+    h1_img="https://ugc.production.linktr.ee/d8B3KXoPSHinSb62Ysrv_648efede33f77_SEO-Image-_1_.jpg"
+    h1_url="https://unstop.com/certificate-preview/adc8ac0a-597f-4c11-8b60-5fbc4e913b39?utm_campaign"
+    st.markdown(
+
+        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+        unsafe_allow_html=True
+    )
+    st.subheader("Techsurf Certificate")
+    h1_img="https://cdn.neow.in/news/images/uploaded/2021/03/1615067291_freecodecamp_story.jpg"
+    h1_url="https://www.freecodecamp.org/certification/ayush_n/responsive-web-design"
+    st.markdown(
+
+        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+        unsafe_allow_html=True
+    )
+    st.subheader("Responsive Web Design Certificate")
+    h1_img="https://learnerbits.com/wp-content/uploads/2023/06/Flipkart-Grid-5.0.png"
+    h1_url="https://unstop.com/certificate-preview/c3d03890-cf32-4050-bfb5-9b9b838919d7"
+    st.markdown(
+
+        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+        unsafe_allow_html=True
+    )
+    st.subheader("Flipkart Grid 5.0 Certificate")
+    
     
