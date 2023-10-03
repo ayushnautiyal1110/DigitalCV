@@ -98,17 +98,9 @@ elif selected == "Projects":
                 f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
                 unsafe_allow_html=True
         )
-    with col2:
-        p1="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/driver-drowsiness-detection-python-opencv-ml.jpg"
-        st.write("Drowsiness Detection")
-        p2="https://github.com/ayushnautiyal1110/DrowsinessDetection"
-        st.markdown(
-                f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
-                unsafe_allow_html=True
-        )
     with col3:
         p1="https://www.starlinkindia.com/blog/wp-content/uploads/2019/05/Biometrics-Face-Recognition-How-Does-it-work.jpg"
-        st.write("Drowsiness Detection")
+        st.write("FACE RECONGNITION")
         p2="https://github.com/ayushnautiyal1110/FACE-RECONGNITION"
         st.markdown(
                 f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
