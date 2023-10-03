@@ -87,7 +87,7 @@ elif selected == "Projects":
         st.write("AI Content Genration Tool")
         p2="https://content-generation-tool-6wi6ez9xgewdmbqqipqgyg.streamlit.app/"
         st.markdown(
-                f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="300"></a>',
+                f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="100"></a>',
                 unsafe_allow_html=True
             )
 elif selected == "Coding":
