@@ -80,7 +80,7 @@ elif selected == "Projects":
     st.header(" ")
     # lottie="https://lottie.host/593cf4f9-e78c-4f76-a0c1-769c839ef8cc/55bSmjVGFB.json"
     # st_lottie(lottie,width=500)
-    col1,col2=st.columns(2)
+    col1,col2,col3=st.columns(3)
     
     with col1:
         p1="https://classintercom.com/wp-content/uploads/2018/07/theContentGen16x9-1.png"
@@ -90,6 +90,30 @@ elif selected == "Projects":
                 f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
                 unsafe_allow_html=True
             )
+    with col2:
+        p1="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/driver-drowsiness-detection-python-opencv-ml.jpg"
+        st.write("Drowsiness Detection")
+        p2="https://github.com/ayushnautiyal1110/DrowsinessDetection"
+        st.markdown(
+                f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
+                unsafe_allow_html=True
+        )
+    with col2:
+        p1="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/driver-drowsiness-detection-python-opencv-ml.jpg"
+        st.write("Drowsiness Detection")
+        p2="https://github.com/ayushnautiyal1110/DrowsinessDetection"
+        st.markdown(
+                f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
+                unsafe_allow_html=True
+        )
+    with col3:
+        p1="https://www.starlinkindia.com/blog/wp-content/uploads/2019/05/Biometrics-Face-Recognition-How-Does-it-work.jpg"
+        st.write("Drowsiness Detection")
+        p2="https://github.com/ayushnautiyal1110/FACE-RECONGNITION"
+        st.markdown(
+                f'<a href="{p2}" target=" _blank"><img src="{p1}" alt="LeetCode Profile" width="200"></a>',
+                unsafe_allow_html=True
+        )    
 elif selected == "Coding":
     # lottie=load_lottie("https://lottie.host/7a3086a0-9ec4-47bd-b731-0dd2d0039376/kUe7hZV9Bg.json")
     # st_lottie(lottie,width=100)
