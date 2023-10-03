@@ -155,6 +155,7 @@ elif selected=="Skills":
     with col3:
         st.image("https://media.gettyimages.com/vectors/artificial-intelligence-banner-vector-id691178076",width=250)
         st.image("https://24x7servermanagement.com/wp-content/uploads/2016/09/mysql-logo.jpg",100)
+        st.image("https://1.bp.blogspot.com/-NGHwBncyA68/UiMm_8b2ZUI/AAAAAAAAAnA/17OGXCKI4zE/s1600/Logo+HTML5.JPG")
 
 elif selected=="Certifications":
     geek_img="https://noticedash.com/wp-content/uploads/2021/06/GeeksforGeeks.svg_.png"
