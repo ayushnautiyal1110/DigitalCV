@@ -42,7 +42,7 @@ st.sidebar.title("AYUSH NAUTIYAL :smile:")
 
 st.sidebar.subheader(":phone: +919993583625")
 # st.sidebar.image("https://pngimg.com/uploads/email/email_PNG11.png",width=30)
-st.sidebar.subheader(":e-mail: ayushnautiyal1110@gmail.com")
+st.sidebar.subheader("ayushnautiyal1110@gmail.com")
 # st.sidebar.subheader(":e-mail: ayushnautiyal1110@gmail.com")
 
 github_url = "https://github.com/ayushnautiyal1110"
