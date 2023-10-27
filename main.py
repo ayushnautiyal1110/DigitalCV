@@ -197,6 +197,8 @@ elif selected=="Certifications":
             unsafe_allow_html=True
         )
         st.subheader("Responsive Web Design Certificate")
+       
+    with col2:
         h4_img="https://learnerbits.com/wp-content/uploads/2023/06/Flipkart-Grid-5.0.png"
         h4_url="https://unstop.com/certificate-preview/c3d03890-cf32-4050-bfb5-9b9b838919d7"
         st.markdown(
@@ -205,7 +207,6 @@ elif selected=="Certifications":
             unsafe_allow_html=True
         )
         st.subheader("Flipkart Grid 5.0 Certificate")
-    with col2:
         h4_img="https://tse3.mm.bing.net/th?id=OIP.smhrpP2hxx2R6KJc8z8oeQHaEK&pid=Api&P=0&h=180"
         h4_url="https://www.credly.com/badges/c34f8964-83ac-4b05-8489-20bbe26afb4a/linked_in_profile"
         st.markdown(
