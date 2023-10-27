@@ -65,7 +65,7 @@ with st.container():
     selected = option_menu(
         menu_title=None,
         options=['Home', 'Experience','Projects', 'Coding', 'Skills', 'Certifications'],
-        icons=['person', 'file-txt','file-txt', 'code-slash', 'file-txt', 'file-txt'],
+        icons=['file-txt', 'file-txt','file-txt', 'file-txt', 'file-txt', 'file-txt'],
         orientation='horizontal'
     )
 if selected == "Home":
