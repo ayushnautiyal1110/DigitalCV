@@ -6,7 +6,7 @@ st.markdown(
     f"""
     <style>
     .sidebar {{
-        background-image: url("http://s1.picswalls.com/wallpapers/2017/12/10/4k-photos_110628610_312.jpg");
+        background-image: url("https://1.bp.blogspot.com/-owDZBtWLm_M/Xe9nYuOlDzI/AAAAAAAAjBA/ojFAQ0Bq77Q-TWq7bkJdxLYw-4qzDdZfACLcBGAsYHQ/s2560/laptop_2-wallpaper-2560x1440.jpg");
         background-attachment: fixed;
         background-size: cover;
         padding: 20px;  /* Add some padding to make content readable */
@@ -19,7 +19,7 @@ st.markdown(
         f"""
         <style>
         .stApp {{
-            background-image: url("http://s1.picswalls.com/wallpapers/2017/12/10/4k-photos_110628610_312.jpg");
+            background-image: url("https://1.bp.blogspot.com/-owDZBtWLm_M/Xe9nYuOlDzI/AAAAAAAAjBA/ojFAQ0Bq77Q-TWq7bkJdxLYw-4qzDdZfACLcBGAsYHQ/s2560/laptop_2-wallpaper-2560x1440.jpg");
             background-attachment: fixed;
             background-size: cover
         }}
