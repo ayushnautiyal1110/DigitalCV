@@ -218,5 +218,5 @@ elif selected=="Certifications":
         f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
         unsafe_allow_html=True
     )
-    st.subheader("Cisco Networking and s")
+    st.subheader("Cisco Networking Security and Support")
     
