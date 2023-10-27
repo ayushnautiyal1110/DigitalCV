@@ -161,62 +161,65 @@ elif selected=="Skills":
         
 
 elif selected=="Certifications":
-    geek_img="https://noticedash.com/wp-content/uploads/2021/06/GeeksforGeeks.svg_.png"
-    geek_url="https://media.geeksforgeeks.org/courses/certificates/537d80e0c606ef52a350f55adbecc024.pdf"
-    
-    
-    st.markdown(
+    col1,col2=st.columns(2)
+    with col1:
+        geek_img="https://noticedash.com/wp-content/uploads/2021/06/GeeksforGeeks.svg_.png"
+        geek_url="https://media.geeksforgeeks.org/courses/certificates/537d80e0c606ef52a350f55adbecc024.pdf"
+        
+        
+        st.markdown(
 
-        f'<a href="{geek_url}" target=" _blank"><img src="{geek_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("DSA Self Paced Course")
-    h1_img="https://images.yourstory.com/cs/1/6fe21cf0425e11ea943f1fd65c7bf912/hackerranklogo-1607404272375.png?fm=png&auto=format"
-    h1_url="https://www.hackerrank.com/certificates/56bbbd727715?utm_medium=email&utm_source=mail_template_1393&utm_campaign=hrc_skills_certificate"
-    st.markdown(
+            f'<a href="{geek_url}" target=" _blank"><img src="{geek_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("DSA Self Paced Course")
+        h1_img="https://images.yourstory.com/cs/1/6fe21cf0425e11ea943f1fd65c7bf912/hackerranklogo-1607404272375.png?fm=png&auto=format"
+        h1_url="https://www.hackerrank.com/certificates/56bbbd727715?utm_medium=email&utm_source=mail_template_1393&utm_campaign=hrc_skills_certificate"
+        st.markdown(
 
-        f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("Problem Solving (Intermediate) Certificate")
-    h2_img="https://ugc.production.linktr.ee/d8B3KXoPSHinSb62Ysrv_648efede33f77_SEO-Image-_1_.jpg"
-    h2_url="https://unstop.com/certificate-preview/adc8ac0a-597f-4c11-8b60-5fbc4e913b39?utm_campaign"
-    st.markdown(
+            f'<a href="{h1_url}" target=" _blank"><img src="{h1_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("Problem Solving (Intermediate) Certificate")
+        h2_img="https://ugc.production.linktr.ee/d8B3KXoPSHinSb62Ysrv_648efede33f77_SEO-Image-_1_.jpg"
+        h2_url="https://unstop.com/certificate-preview/adc8ac0a-597f-4c11-8b60-5fbc4e913b39?utm_campaign"
+        st.markdown(
 
-        f'<a href="{h2_url}" target=" _blank"><img src="{h2_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("Techsurf Certificate")
-    h3_img="https://cdn.neow.in/news/images/uploaded/2021/03/1615067291_freecodecamp_story.jpg"
-    h3_url="https://www.freecodecamp.org/certification/ayush_n/responsive-web-design"
-    st.markdown(
+            f'<a href="{h2_url}" target=" _blank"><img src="{h2_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("Techsurf Certificate")
+        h3_img="https://cdn.neow.in/news/images/uploaded/2021/03/1615067291_freecodecamp_story.jpg"
+        h3_url="https://www.freecodecamp.org/certification/ayush_n/responsive-web-design"
+        st.markdown(
 
-        f'<a href="{h3_url}" target=" _blank"><img src="{h3_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("Responsive Web Design Certificate")
-    h4_img="https://learnerbits.com/wp-content/uploads/2023/06/Flipkart-Grid-5.0.png"
-    h4_url="https://unstop.com/certificate-preview/c3d03890-cf32-4050-bfb5-9b9b838919d7"
-    st.markdown(
+            f'<a href="{h3_url}" target=" _blank"><img src="{h3_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("Responsive Web Design Certificate")
+        h4_img="https://learnerbits.com/wp-content/uploads/2023/06/Flipkart-Grid-5.0.png"
+        h4_url="https://unstop.com/certificate-preview/c3d03890-cf32-4050-bfb5-9b9b838919d7"
+        st.markdown(
 
-        f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("Flipkart Grid 5.0 Certificate")
-    h4_img="https://tse3.mm.bing.net/th?id=OIP.smhrpP2hxx2R6KJc8z8oeQHaEK&pid=Api&P=0&h=180"
-    h4_url="https://www.credly.com/badges/c34f8964-83ac-4b05-8489-20bbe26afb4a/linked_in_profile"
-    st.markdown(
+            f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("Flipkart Grid 5.0 Certificate")
+    with col2:
+        h4_img="https://tse3.mm.bing.net/th?id=OIP.smhrpP2hxx2R6KJc8z8oeQHaEK&pid=Api&P=0&h=180"
+        h4_url="https://www.credly.com/badges/c34f8964-83ac-4b05-8489-20bbe26afb4a/linked_in_profile"
+        st.markdown(
 
-        f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("Cisco Cyber Ops")
-    h4_img="https://images.credly.com/size/340x340/images/a4dd891f-7bf5-4938-8241-50dc81e8cc00/image.png"
-    h4_url="https://www.credly.com/badges/0dda5ba3-c804-4c01-a997-60d438623c17/linked_in_profile"
-    st.markdown(
+            f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("Cisco Cyber Ops")
+        h4_img="https://images.credly.com/size/340x340/images/a4dd891f-7bf5-4938-8241-50dc81e8cc00/image.png"
+        h4_url="https://www.credly.com/badges/0dda5ba3-c804-4c01-a997-60d438623c17/linked_in_profile"
+        st.markdown(
 
-        f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
-        unsafe_allow_html=True
-    )
-    st.subheader("Cisco Networking Security and Support")
+            f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
+            unsafe_allow_html=True
+        )
+        st.subheader("Cisco Networking Security and Support")
     
