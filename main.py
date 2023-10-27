@@ -64,8 +64,8 @@ st.sidebar.markdown(
 with st.container():
     selected = option_menu(
         menu_title=None,
-        options=['Home', 'Projects', 'Coding', 'Skills', 'Certifications'],
-        icons=['person', 'file-txt', 'code-slash', 'file-txt', 'file-txt'],
+        options=['Home', 'Experience','Projects', 'Coding', 'Skills', 'Certifications'],
+        icons=['person', 'file-txt','file-txt', 'code-slash', 'file-txt', 'file-txt'],
         orientation='horizontal'
     )
 if selected == "Home":
@@ -75,6 +75,8 @@ if selected == "Home":
         "https://lottie.host/d9811d92-20d1-4444-8c20-8d8b5d98fb52/61mZLs7Bix.json")
 
     st_lottie(lottie, width=200)
+elif selected == "Experience":
+    st.title("Intern at Persistent Systems                    Jun23-Aug23")
 elif selected == "Projects":
     st.title("MY PROJECT SECTION")
     st.header(" ")
