@@ -203,5 +203,20 @@ elif selected=="Certifications":
         unsafe_allow_html=True
     )
     st.subheader("Flipkart Grid 5.0 Certificate")
-    
+    h4_img="https://tse3.mm.bing.net/th?id=OIP.smhrpP2hxx2R6KJc8z8oeQHaEK&pid=Api&P=0&h=180"
+    h4_url="https://www.credly.com/badges/c34f8964-83ac-4b05-8489-20bbe26afb4a/linked_in_profile"
+    st.markdown(
+
+        f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
+        unsafe_allow_html=True
+    )
+    st.subheader("Cisco Cyber Ops")
+    h4_img="https://images.credly.com/size/340x340/images/a4dd891f-7bf5-4938-8241-50dc81e8cc00/image.png"
+    h4_url="https://www.credly.com/badges/0dda5ba3-c804-4c01-a997-60d438623c17/linked_in_profile"
+    st.markdown(
+
+        f'<a href="{h4_url}" target=" _blank"><img src="{h4_img}" alt="LeetCode Profile" width="150" ></a>',
+        unsafe_allow_html=True
+    )
+    st.subheader("Cisco Networking and s")
     
